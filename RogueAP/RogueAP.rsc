@@ -78,3 +78,5 @@ set name="Rogue AP"
 set enabled=yes
 /system routerboard settings
 set init-delay=0s
+/tool mac-server
+set [ find default=yes ] interface="05 - Management"
